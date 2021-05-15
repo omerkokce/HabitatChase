@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".WelcomeActivity"
+        android:background="#5B2C6F"
+        android:padding="20dp"
+>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bancation"
+            android:textSize="35sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:textColor="@android:color/white"
+    />
+    <Button android:id="@+id/btnGiris"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/giris_yapin"
+            android:background="#283747"
+            android:layout_above="@+id/btnKaydol"
+            android:layout_marginBottom="25dp"
+    />
+    <Button android:id="@+id/btnKaydol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kayıt Ol"
+            android:background="#ECF0F1"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+    />
+
+</RelativeLayout>

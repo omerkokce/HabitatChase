@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".KayitActivity"
+>
+
+    <include layout="@layout/action_bar" android:id="@+id/action_barKayit"/>
+    <TextView
+            android:id="@+id/lblInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kayit_ol"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/action_barKayit"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+    />
+    <EditText
+            android:id="@+id/txtKullaniciAdi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblInfo"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:hint="@string/kullanic_adi"
+    />
+    <EditText
+            android:id="@+id/txtMailKayit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtKullaniciAdi"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:hint="@string/mail"
+            android:inputType="textEmailAddress"
+    />
+    <EditText
+            android:id="@+id/txtParolaKayit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtMailKayit"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:hint="@string/parola"
+            android:inputType="textPassword"
+    />
+    <Button
+            android:id="@+id/btnKayitOl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#4A235A"
+            android:layout_marginBottom="35dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/kayit_ol"
+            android:textColor="#ECF0F1"
+    />
+
+</RelativeLayout>

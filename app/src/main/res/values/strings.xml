@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Proje</string>
+    <string name="newAliskanlik">+</string>
+    <string name="bir_renk_sec">Bir Renk Seç</string>
+    <string name="bildirimleri_ac">Bildirimleri Aç</string>
+    <string name="hatirlatici">Hatırlatıcı</string>
+    <string name="hedef">Hedef</string>
+    <string name="isim">İsim</string>
+    <string name="kaydet">Kaydet</string>
+    <string name="giris_yap">Hesabınızla Giriş Yapın</string>
+    <string name="mail">Mail</string>
+    <string name="giris_yapin">Giris Yap</string>
+    <string name="hesap_olustur">Yeni Hesap Oluştur</string>
+    <string name="kayit_ol">Yeni Hesap Oluştur</string>
+    <string name="kullanic_adi">Kullanıcı Adi</string>
+    <string name="parola">Parola</string>
+    <string name="cikis_yap">Çıkış Yap</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bancation">Bancation</string>
+</resources>

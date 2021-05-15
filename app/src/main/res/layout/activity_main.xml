@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+>
+    <RelativeLayout
+            android:id="@+id/settingsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+    >
+        <Button
+                android:id="@+id/btnCikis"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/cikis_icon"
+                android:layout_marginEnd="70px"
+        />
+        <Button
+                android:id="@+id/btnEdit"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/edit_icon"
+                android:layout_marginStart="70px"
+        />
+    </RelativeLayout>
+    <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="50px"
+            android:layout_marginEnd="50px"
+            android:layout_marginBottom="75dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/settingsLayout"
+            android:background="@drawable/scrollview"
+
+    >
+        <GridLayout
+                android:id="@+id/main_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="50px"
+                android:columnCount="3"
+        >
+        </GridLayout>
+    </ScrollView>
+    <Button
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/btnYeni"
+            android:background="@drawable/shapedbutton"
+            android:text="@string/newAliskanlik"
+            android:textSize="30sp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginEnd="16dp"
+            android:layout_alignEnd="@+id/scrollView"
+            android:layout_alignBottom="@+id/scrollView"/>
+    <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragment_container_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    <include layout="@layout/menu"
+             android:id="@+id/menu"/>
+</RelativeLayout>

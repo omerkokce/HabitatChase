@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+>
+
+    <Button
+            android:id="@+id/btnYapilan"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/yapilan"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginBottom="8dp"
+    />
+    <Button
+            android:id="@+id/btnAnasayfa"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:background="@drawable/ansayfa"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"
+    />
+    <Button
+            android:id="@+id/btnPaylasim"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/arkadaslar"
+            android:layout_marginEnd="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="8dp"
+    />
+</RelativeLayout>
